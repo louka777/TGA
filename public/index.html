@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Ghost Adventure</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">The Ghost Adventure</h1>
+    <button id="startButton" onclick="startAdventure()">Commencer</button>
+    <div id="riddle" style="display: none;">
+      <p>Mon premier est le nombre que nous sommes, moins huit.</p>
+      <p>Mon second se trouve au fond d'une bouteille.</p>
+      <p>Mon troisième est un poisson océanique de la famille des Scombridés.</p>
+      <p>Mon quatrième est une substance parfumée que l'on brûle pour en faire de la fumée odorante.</p>
+      <p>Mon cinquième est un champ chromatique.</p>
+      <input type="text" id="answer" placeholder="Entrez votre réponse">
+      <button onclick="checkAnswer()">Valider</button>
+    </div>
+    <div id="message" style="display: none;">
+      <p>Bonne réponse ! <a href="https://line.me/ti/g/UYafW-vM2T">Clique ici pour discuter !</a></p>
+    </div>
+    <div id="glitch" style="display: none;">Effet Glitch...</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
